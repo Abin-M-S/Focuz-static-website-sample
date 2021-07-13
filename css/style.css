@@ -15,6 +15,17 @@ body{
     font-size: 16px;
     line-height: 28px;
 }
-.about-section h3{
+.custom-font-h3{
     font-size: 1.7rem;
+}
+.service-box h4{
+    font-size: 1rem;
+}
+.contact-section{
+    background-image: url(../images/footer-bk.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.address-box p{
+    line-height: 2rem;
 }
