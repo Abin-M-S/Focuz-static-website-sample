@@ -23,9 +23,37 @@ body{
 }
 .contact-section{
     background-image: url(../images/footer-bk.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .address-box p{
     line-height: 2rem;
 }
+
+@media(max-width:1024px){
+    .footer-section{
+        margin-top: -6.9px;
+    }
+}
+
+@media(max-width:768px){
+    section.header-section .navbar-brand img {
+        width: 9rem;
+    }
+    .contact-section .contact-box{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media(max-width:240px){
+    section.header-section .navbar-brand img {
+        width: 6rem;
+    }
+    section.header-section button {
+        font-size: .8rem;
+    }
+}
+
+
+
